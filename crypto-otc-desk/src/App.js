@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import FeaturedServices from './components/FeaturedServices';
 import './App.css';
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
           <p>Sell your cryptocurrencies hassle-free on our platform.</p>
           {/* Add more details or features related to selling */}
         </section>
+
+        <FeaturedServices />
+
       </main>
       <Footer />
     </div>
