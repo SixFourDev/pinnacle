@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import FeaturedServices from './components/FeaturedServices';
+import HowItWorks from './components/HowItWorks';
 import './App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         </section>
 
         <FeaturedServices />
+        <HowItWorks />
 
       </main>
       <Footer />
