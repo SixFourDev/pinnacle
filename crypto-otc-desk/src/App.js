@@ -6,6 +6,7 @@ import FeaturedServices from './components/FeaturedServices';
 import HowItWorks from './components/HowItWorks';
 import './App.css';
 import MarketData from './components/MarketData';
+import NewsFeed from './components/NewsFeed';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <FeaturedServices />
         <HowItWorks />
         <MarketData />
+        <NewsFeed />
 
       </main>
       <Footer />
