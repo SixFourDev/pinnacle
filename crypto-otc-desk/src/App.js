@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import FeaturedServices from './components/FeaturedServices';
 import HowItWorks from './components/HowItWorks';
 import './App.css';
+import MarketData from './components/MarketData';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
 
         <FeaturedServices />
         <HowItWorks />
+        <MarketData />
 
       </main>
       <Footer />
